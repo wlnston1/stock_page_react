@@ -4,14 +4,6 @@ import data from '../../data.json';
 
 function StockDetail(props) {
     const { id } = useParams();
-    console.log(data.stocks);
-    // name: string;
-    // symbol: string;
-    // lastPrice: number;
-    // change: number;
-    // high: number;
-    // low: number;
-    // open: number;
     return (
         <div>
             <h2> Stock Details </h2>

@@ -12,12 +12,12 @@ function App() {
         <header className='header'>
           <h2> React Stock Page </h2>
           <nav>
-            <Link className='navigation-link' to="/">Home</Link>
+            <Link className='navigation-link' to="/stocks">Home</Link>
             <Link className='navigation-link' to="/about">About</Link>
           </nav>
         </header>
         <Routes>
-          <Route path="/" exact element={<Home />} />
+          <Route path="/stocks" exact element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="stocks/:id" element={<StockDetail />} />
         </Routes>

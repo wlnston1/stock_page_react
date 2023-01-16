@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+
+.header {
+  padding-bottom: 20px;
+  background-color: rgb(126, 210, 240);
+}
+
+.navigation-link 
+{
+  padding: 0px 10px;
+  margin: 0px 10px;
+  text-decoration: none;
+  border: 1px solid white;
+  background-color: white;
+}
+
+.navigation-link:hover
+{
+  background-color: rgb(12, 86, 124);
+  border: 1px solid rgb(12, 86, 124);
+}

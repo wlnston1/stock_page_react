@@ -6,7 +6,7 @@ function Home() {
     return (
         <div>
             {data.stocks.map(stock => {
-                return <Stock key={stock.name} stock={stock}></Stock>
+                return <Stock id={stock.symbol} key={stock.symbol} stock={stock}></Stock>
             })}
         </div>
     )

@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter, Route, Link, Routes } from 'react-router-dom';
 import Home from './components/Home';
 import About from './components/About';
+import StockDetail from './components/StockDetail';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Routes>
           <Route path="/" exact element={<Home/>} />
           <Route path="/about" element={<About/>} />
+          <Route path="stocks/:id" element={<StockDetail/>} />
         </Routes>
       </BrowserRouter>
     </div>

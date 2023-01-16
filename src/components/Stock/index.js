@@ -1,15 +1,16 @@
 import React from "react";
+import { Route, Link } from "react-router-dom";
 
 
 
-function Stock({stock})
+function Stock({id, stock})
 {
     return (
       <div>
-        <p> a stock </p>
+         {/* <h3> {id} </h3> */}
+         <Link to={`/stocks/${id}`}> {stock.name} </Link>
       </div>  
     );
-
 }
 
 
